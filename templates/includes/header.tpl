@@ -9,9 +9,8 @@
         <link href='http://fonts.googleapis.com/css?family=Walter+Turncoat' rel='stylesheet' type='text/css'>
         {pageaddvar name="stylesheet" value="$stylepath/reset.css"}
         {pageaddvar name="stylesheet" value="$stylepath/style.css"}
-        {*pageaddvar name="javascript" value="jquery"}
-        {pageaddvar name="javascript" value="$stylepath/../javascript/main.js"*}
-
+        {pageaddvar name="javascript" value="jquery"}
+        {pageaddvar name="javascript" value="$stylepath/../javascript/main.js"}
     </head>
     <body>
         <div id="theme_page_container">

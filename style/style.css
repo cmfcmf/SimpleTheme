@@ -89,27 +89,11 @@ p {
     position: absolute;
 }
 
+
 #theme_topnav {
-    height: 35px;
     margin-bottom: 20px;
     font-family: "Walter Turncoat", Arial, sans-serif;
-    font-size: 20px;
-}
-
-#theme_topnav li {
-    float: left;
-    padding: 10px 10px 6px 10px;
-    background-color: white;
-    border-bottom: 4px solid lawngreen;
-}
-
-#theme_topnav li:hover {
-    background-color: rgb(230, 230, 230);
-}
-
-#theme_topnav li a {
-    text-decoration: none;
-    color: inherit;
+    font-size: 16px;
 }
 
 #theme_content {
@@ -167,6 +151,11 @@ p {
     font-style: italic;
 }
 
+.theme_block_center {
+    border-bottom: 5px solid white;
+    margin-bottom: 20px;
+}
+
 #theme_footer {
     background-color: rgb(245, 245, 245);
     text-align: center;
@@ -177,6 +166,11 @@ p {
 
 #theme_footer a {
     color: #bebebe;
+}
+
+#theme_footer p {
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .navlist {

@@ -9,4 +9,4 @@
         }
     </style>
 {/pageaddvarblock}
-{include file='master.tpl'}
+{include file='master.tpl' nocenter=true}

@@ -1,0 +1,102 @@
+ul.menutree_horizontal,
+ul.menutree_horizontal ul {
+    background: #FFFFFF;
+    font-weight: bold;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.menutree_horizontal li {
+    float: left;
+    margin: 0;
+    position: relative;
+    padding: 0;
+    background-color: white;
+    border-bottom: 4px solid lawngreen;
+}
+
+ul.menutree_horizontal li:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+ul.menutree_horizontal li a,
+ul.menutree_horizontal li span {
+    border-right: 1px solid rgb(230, 230, 230);
+    display: block;
+    text-decoration: none;
+    padding: 10px 10px 6px 10px;
+}
+
+ul.menutree_horizontal li.parent > a,
+ul.menutree_horizontal li.parent > span {
+    background: url("../../../../../images/global/arrow_down_grey.png") no-repeat scroll 95% 50% transparent;
+    padding-right: 18px;
+}
+
+ul.menutree_horizontal li.parent > a:hover,
+ul.menutree_horizontal li.parent > span:hover {
+    background: url("../../../../../images/global/arrow_down_black.png") no-repeat scroll 95% 50% transparent;
+}
+
+ul.menutree_horizontal li ul {
+    font-weight: normal;
+    height: auto;
+    left: -9999px;
+    margin: 0;
+    position: absolute;
+}
+
+ul.menutree_horizontal li li {
+}
+
+ul.menutree_horizontal li li a,
+ul.menutree_horizontal li li span {
+    border: none;
+    margin-right: 2px;
+}
+
+ul.menutree_horizontal li li.parent > a,
+ul.menutree_horizontal li li.parent > span {
+    background: url("../../../../../images/global/arrow_right_grey.png") no-repeat scroll 95% 50% transparent;
+    padding-right: 18px;
+}
+
+ul.menutree_horizontal li li.parent > a:hover,
+ul.menutree_horizontal li li.parent > span:hover {
+    background: url("../../../../../images/global/arrow_right_black.png") no-repeat scroll 95% 50% transparent;
+}
+
+ul.menutree_horizontal li ul ul {
+    margin: -1.75em 0 0 15.1em;
+}
+
+ul.menutree_horizontal li:hover ul ul,
+ul.menutree_horizontal li:hover ul ul ul {
+    left: -9999px;
+}
+
+ul.menutree_horizontal li:hover ul {
+    left: -1px;
+    position: absolute;
+    margin-top: 4px;
+}
+
+ul.menutree_horizontal li li:hover ul,
+ul.menutree_horizontal li li li:hover ul {
+    left: -1px;
+    top: 1.75em;
+}
+
+ul.menutree_horizontal_controls {
+    font-size: 0.8em;
+    margin: 0.5em 0;
+    list-style: none;
+    display: none;
+}
+
+ul.menutree_horizontal_controls li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
