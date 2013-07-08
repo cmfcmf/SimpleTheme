@@ -17,5 +17,5 @@ $themeversion['version'] = '1.0';
 $themeversion['admin'] = 1;
 $themeversion['user'] = 1;
 $themeversion['system'] = 0;
-$themeversion['license'] = 'GNU/GPLv3 (or at your option, any later version).';
+$themeversion['license'] = 'MIT';
 $themeversion['xhtml'] = true;
