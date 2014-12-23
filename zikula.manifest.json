@@ -1,0 +1,21 @@
+{
+    "extension": {
+        "title": "Simple Theme"
+    },
+    "version": {
+        "keywords": [
+            "simple",
+            "theme",
+            "modern"
+        ],
+        "semver": "1.0.2",
+        "dependencies": {
+            "zikula/core": ">=1.3.5 <1.5"
+        },
+        "composerpath": "composer.json",
+        "description": "A simple Zikula theme",
+        "urls": {
+            "issues": "https://github.com/cmfcmf/SimpleTheme/issues"
+        }
+    }
+}
