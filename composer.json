@@ -1,0 +1,15 @@
+{
+    "name": "cmfcmf/simple-theme",
+    "description": "A simple Zikula theme",
+    "type": "zikula-theme",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Flach",
+            "role": "owner"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    }
+}
